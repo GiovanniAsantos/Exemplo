@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .cabeçalho{
     display: flex;
 }
@@ -7,16 +11,18 @@
 }
 
 .img1{
-    width: 105vw;
-    height: 70vh;
+    width: 100vw;
+    height: 100%;
+    
 }
 
 .iconeLogo{
     margin-left: 700px;
+    margin-top: 10px;
 }
 
 .textoLogo{
-    margin-top: -38px;
+    margin-top: -22px;
     margin-left: 730px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
@@ -24,7 +30,7 @@
 }
 
 .botoes{
-    margin-top: -30px;
+    margin-top:-10px;
 }
 .signin{
     color: white;
@@ -47,7 +53,7 @@
 .form{
     position: absolute;
     margin-left: 550px;
-    margin-top: 50px;
+    margin-top: 80px;
     padding: 0px;
     width: 560px;
 }
@@ -59,13 +65,14 @@
 }
 
 input{
-    width: 320px;
+    width: 350px;
     margin-left: 60px;
-    height: 30px;
+    height: 35px;
     border: none;
     border-radius: 15px;
     opacity: 0.7;
-    position: fixed;
+    margin-top: 30px;
+
 }
 
 input::placeholder{
@@ -73,7 +80,36 @@ input::placeholder{
 }
 
 .signaddress{
-    margin-left: 1300px;
+    margin-left: 140px;
     color: gray;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.teste2{
+    height: 70vh;
+}
+
+.imgcorpo{
+    width: 120px;
+    height: 100px;
+}
+.divmoto{
+    width: 200px;
+    height: 200px;
+    margin-top: 130px;
+    margin-left: 300px;
+}
+
+.divcasa{
+    width: 200px;
+    height: 200px;
+    margin-top: -190px;
+    margin-left: 700px;
+}
+
+.divtel{
+    width: 200px;
+    height: 200px;
+    margin-top: -200px;
+    margin-left: 1100px;
 }
