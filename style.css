@@ -1,0 +1,79 @@
+.cabeçalho{
+    display: flex;
+}
+
+.teste{
+    position: absolute;
+}
+
+.img1{
+    width: 105vw;
+    height: 70vh;
+}
+
+.iconeLogo{
+    margin-left: 700px;
+}
+
+.textoLogo{
+    margin-top: -38px;
+    margin-left: 730px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.botoes{
+    margin-top: -30px;
+}
+.signin{
+    color: white;
+    border: none;
+    width: 70px;
+    background-color: transparent;
+    margin-left: 1300px;
+    margin-top: -25px;
+}
+
+.signup{
+    color: black;
+    border: none;
+    border-radius: 15px;
+    width: 70px;
+    background-color: white;
+    height: 30px;
+}
+
+.form{
+    position: absolute;
+    margin-left: 550px;
+    margin-top: 50px;
+    padding: 0px;
+    width: 560px;
+}
+
+.textoform{
+    font-size: 50px;
+    color: rgb(128, 124, 124);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input{
+    width: 320px;
+    margin-left: 60px;
+    height: 30px;
+    border: none;
+    border-radius: 15px;
+    opacity: 0.7;
+    position: fixed;
+}
+
+input::placeholder{
+    padding-left: 40px;
+}
+
+.signaddress{
+    margin-left: 1300px;
+    color: gray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
